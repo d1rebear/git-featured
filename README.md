@@ -1,2 +1,15 @@
 # git-featured
-CLI to manage features. Perform actions for multiple repositories on specific branches: clone; list; checkout; pull; push; show index (local, remote, untracked); merge.
+Command line tool to manage multiple git repositories with common context.
+## The Problem
+*TODO*
+## What is feature?
+*TODO*
+## Solution
+With `git-featured` you can perform following actions for on features:
+- `clone`
+- `list`
+- `checkout`
+- `pull`
+- `push`
+- `show` index (local, remote, untracked)
+- `merge`
