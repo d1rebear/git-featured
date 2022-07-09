@@ -1,4 +1,3 @@
-"""666"""
 import typer
 
 app = typer.Typer()
