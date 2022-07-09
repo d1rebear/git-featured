@@ -1,3 +1,4 @@
+"""Docstring module"""
 import typer
 
 app = typer.Typer()
