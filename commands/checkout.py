@@ -9,4 +9,4 @@ def checkout():
     """updates files in the working tree to match the version  in the index
         or the specified tree"""
     # TODO:  implement
-    print(f'"Checkout"')
+    print("Checkout")
