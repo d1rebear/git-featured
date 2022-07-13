@@ -5,7 +5,7 @@ Command line tool to manage multiple git repositories with common context.
 ## What is feature?
 *TODO*
 ## Solution
-With `git-featured` you can perform following actions for on features:
+With `git-featured` you can perform following actions on features:
 - `clone`
 - `list`
 - `checkout`
