@@ -4,8 +4,8 @@ import typer
 app = typer.Typer()
 
 
-@app.command()
-def merge():
+@app.callback(invoke_without_command=True)
+def __merge():
     """Join development histories together"""
     # TODO: implement
     print('Merge')

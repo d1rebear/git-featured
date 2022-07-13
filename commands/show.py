@@ -4,8 +4,8 @@ import typer
 app = typer.Typer()
 
 
-@app.command()
-def show():
+@app.callback(invoke_without_command=True)
+def __show():
     """shows various types of objects"""
     # TODO: implement
     print('Show')

@@ -4,8 +4,8 @@ import typer
 app = typer.Typer()
 
 
-@app.command()
-def list():
+@app.callback(invoke_without_command=True)
+def __list():
     """list of last commits"""
     # TODO: implement
     print("List")
