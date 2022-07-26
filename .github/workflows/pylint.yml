@@ -20,4 +20,5 @@ jobs:
         pip install -r requirements.txt
     - name: Analysing the code with pylint
       run: |
+        pylint --rcfile=.pylintrc
         pylint `find . -name '*.py' | xargs` || pylint-exit -cfail -rfail -wfail -efail $?
