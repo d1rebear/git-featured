@@ -1,10 +1,10 @@
-"""See the file "LICENSE" for the full license governing this code."""
+"""Main script"""
 def main():
     """Entrypoint"""
 
     # TODO: implement
 
-    print("Hello")
+    print("Welcome to git-featured!")
 
 
 if __name__ == "__main__":
